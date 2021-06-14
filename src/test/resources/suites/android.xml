@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Test" verbose="1" parallel="tests" thread-count="99">
+  <test name="browser execution">
+    <parameter name="platform" value="android" />
+
+    <classes>
+      <class name="bredah.test.ExampleTest" />
+    </classes>
+    
+  </test>
+</suite>
